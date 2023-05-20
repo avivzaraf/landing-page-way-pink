@@ -1,0 +1,29 @@
+@mixin getbutton($color, $margin, $width, $height, $border, $cursor) {
+background-color: deeppink;
+color: $color;
+margin-top: $margin;
+width: $width;
+height: $height;
+border: $border;
+cursor: $cursor;
+}
+
+button{
+    @include getbutton(white,15px ,133px ,27px ,none ,pointer )
+}
+
+
+
+
+
+
+
+/*
+button {
+    background-color: deeppink;
+    color: white;
+    margin-top: 15px;
+    width: 133px;
+    height: 27px;
+    border: none;
+    cursor: pointer;
